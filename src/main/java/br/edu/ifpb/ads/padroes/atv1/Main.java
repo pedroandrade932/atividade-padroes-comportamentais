@@ -14,9 +14,9 @@ public class Main {
         RepositorioDiscos repo = new RepositorioDiscos();
 
         repo.inscreverInteressado(new InteressadoNoGenero("Rock", new NotificarSMS()));
-        repo.inscreverInteressado(new InteressadoEmArtista("Pink Floyd", new NotificarEmail()));
-        repo.inscreverInteressado(new InteressadoNoTitulo("The Dark Side of the Moon", new NotificarPush()));
+        repo.inscreverInteressado(new InteressadoEmArtista("Raul Seixas", new NotificarEmail()));
+        repo.inscreverInteressado(new InteressadoNoTitulo("Metamorfose Ambulante", new NotificarPush()));
 
-        repo.addDisco(new Disco("Pink Floyd", "The Dark Side of the Moon", "Rock", 1973));
+        repo.addDisco(new Disco("Raul Seixas", "Metamorfose Ambulante", "Rock", 1973));
     }
 }
